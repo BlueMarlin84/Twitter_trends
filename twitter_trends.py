@@ -81,7 +81,7 @@ def twitter_trends():
                  #parameters: send_to, subject, body
                  subject = key + " - ranking " + str(rank)
                  print("Invio mail...")
-                 mail_sender.send_mail('<Insert your destinaton mail>',subject, body)
+                 mail_sender.send_mail('<Insert your destination mail>',subject, body)
      mydriver.quit()
      print("Fine Cerca")            
          
